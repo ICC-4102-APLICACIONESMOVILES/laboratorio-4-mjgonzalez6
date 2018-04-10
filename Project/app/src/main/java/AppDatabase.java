@@ -9,4 +9,5 @@ import android.arch.persistence.room.RoomDatabase;
 public abstract class AppDatabase extends RoomDatabase {
     public abstract AnswerDao answerDao();
     public abstract QuestionDao questionDao();
+
 }
